@@ -1,4 +1,4 @@
-update game_event set description='仲夏焰火节 ' where eventEntry=1;
+﻿update game_event set description='仲夏焰火节 ' where eventEntry=1;
 update game_event set description='冬幕节 ' where eventEntry=2;
 update game_event set description='暗月马戏团（泰罗卡森林） ' where eventEntry=3;
 update game_event set description='暗月马戏团（艾尔文森林） ' where eventEntry=4;

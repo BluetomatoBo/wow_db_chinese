@@ -1,6 +1,4 @@
-update db_script_string set content_default='[PH]你好, $N.' where entry=2000000107;
-update db_script_string set content_default='检查炮弹...' where entry=2000000108;
-update db_script_string set content_default='啊，这次肯定是他了。不是吗？' where entry=2000005018;
+﻿update db_script_string set content_default='啊，这次肯定是他了。不是吗？' where entry=2000005018;
 update db_script_string set content_default='你也许想要后退一点。剖鱼可不是个干净活。' where entry=2000005019;
 update db_script_string set content_default='很高兴能看到你心怀荣耀地防卫塞拉摩，我的朋友。' where entry=2000005020;
 update db_script_string set content_default='当你轮班时，我们去旅馆喝两杯，一起回忆过去的好时光。' where entry=2000005021;

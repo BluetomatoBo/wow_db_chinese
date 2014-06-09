@@ -1,4 +1,4 @@
-update access_requirement set comment='影牙城堡的(入口) ' where mapId=33 and difficulty=0;
+﻿update access_requirement set comment='影牙城堡的(入口) ' where mapId=33 and difficulty=0;
 update access_requirement set comment='暴风城监狱(入口) ' where mapId=34 and difficulty=0;
 update access_requirement set comment='迪蒙特荒野 - 死亡矿井(入口)' where mapId=36 and difficulty=0;
 update access_requirement set comment='贫瘠之地——哀嚎洞穴' where mapId=43 and difficulty=0;
@@ -14,8 +14,8 @@ update access_requirement set comment='黑石山 - 黑石塔' where mapId=229 an
 update access_requirement set comment='灼热峡谷 - 黑石山' where mapId=230 and difficulty=0;
 update access_requirement set comment='奥妮克希亚的巢穴(入口) ' where mapId=249 and difficulty=0;
 update access_requirement set comment='奥妮克希亚的巢穴(入口) ' where mapId=249 and difficulty=1;
-update access_requirement set comment='时光之穴:黑暗之门(入口) ' where mapId=269 and difficulty=0;
-update access_requirement set comment='时光之穴:黑暗之门(入口) ' where mapId=269 and difficulty=1;
+update access_requirement set quest_failed_text='你必须完成任务“返回安多尔姆身边”才能进入。',comment='时光之穴:黑暗之门(入口) ' where mapId=269 and difficulty=0;
+update access_requirement set quest_failed_text='你必须完成任务“返回安多尔姆身边”才能进入。',comment='时光之穴:黑暗之门(入口) ' where mapId=269 and difficulty=1;
 update access_requirement set comment='西瘟疫之地 - 凯尔达隆 - 通灵学院(入口) ' where mapId=289 and difficulty=0;
 update access_requirement set comment='祖尔格拉布(入口) ' where mapId=309 and difficulty=0;
 update access_requirement set comment='东瘟疫之地 - 斯坦索姆' where mapId=329 and difficulty=0;
@@ -73,8 +73,8 @@ update access_requirement set comment='奥核之心  (入口)' where mapId=576 a
 update access_requirement set comment='奥核之眼  (入口)' where mapId=578 and difficulty=0;
 update access_requirement set comment='奥核之眼  (入口)' where mapId=578 and difficulty=1;
 update access_requirement set comment='太阳井高地  (入口)' where mapId=580 and difficulty=0;
-update access_requirement set comment='魔导师平台  (入口)' where mapId=585 and difficulty=0;
-update access_requirement set comment='魔导师平台  (入口)' where mapId=585 and difficulty=1;
+update access_requirement set quest_failed_text='你必须完成任务“大难不死”才能进入。',comment='魔导师平台  (入口)' where mapId=585 and difficulty=0;
+update access_requirement set quest_failed_text='你必须完成任务“大难不死”才能进入。',comment='魔导师平台  (入口)' where mapId=585 and difficulty=1;
 update access_requirement set comment='时光之穴：净化斯坦索姆  (入口)' where mapId=595 and difficulty=0;
 update access_requirement set comment='时光之穴：净化斯坦索姆  (入口)' where mapId=595 and difficulty=1;
 update access_requirement set comment='奥达尔:石头大厅  (入口)' where mapId=599 and difficulty=0;
@@ -99,10 +99,10 @@ update access_requirement set comment='安卡赫特古代王国  (入口)' where
 update access_requirement set comment='安卡赫特古代王国  (入口)' where mapId=619 and difficulty=1;
 update access_requirement set comment='阿尔卡冯的宝库  (入口)' where mapId=624 and difficulty=0;
 update access_requirement set comment='阿尔卡冯的宝库  (入口)' where mapId=624 and difficulty=1;
-update access_requirement set comment='冰冠城塞  (入口)' where mapId=631 and difficulty=0;
-update access_requirement set comment='冰冠城塞  (入口)' where mapId=631 and difficulty=1;
-update access_requirement set comment='冰冠城塞  (入口)' where mapId=631 and difficulty=2;
-update access_requirement set comment='冰冠城塞  (入口)' where mapId=631 and difficulty=3;
+update access_requirement set quest_failed_text='你必须拥有成就“冰封王座（25人）”才能进入。',comment='冰冠城塞  (入口)' where mapId=631 and difficulty=0;
+update access_requirement set quest_failed_text='你必须拥有成就“冰封王座（25人）”才能进入。',comment='冰冠城塞  (入口)' where mapId=631 and difficulty=1;
+update access_requirement set quest_failed_text='你必须拥有成就“冰封王座（25人）”才能进入。',comment='冰冠城塞  (入口)' where mapId=631 and difficulty=2;
+update access_requirement set quest_failed_text='你必须拥有成就“冰封王座（25人）”才能进入。',comment='冰冠城塞  (入口)' where mapId=631 and difficulty=3;
 update access_requirement set comment='灵魂熔炉  (入口)' where mapId=632 and difficulty=0;
 update access_requirement set comment='灵魂熔炉  (入口)' where mapId=632 and difficulty=1;
 update access_requirement set comment='十字军的试炼' where mapId=649 and difficulty=0;
@@ -111,10 +111,10 @@ update access_requirement set comment='十字军的试炼' where mapId=649 and d
 update access_requirement set comment='十字军的试炼' where mapId=649 and difficulty=3;
 update access_requirement set comment='十字军的试炼' where mapId=650 and difficulty=0;
 update access_requirement set comment='十字军的试炼' where mapId=650 and difficulty=1;
-update access_requirement set comment='萨伦之渊  (入口)' where mapId=658 and difficulty=0;
-update access_requirement set comment='萨伦之渊  (入口)' where mapId=658 and difficulty=1;
-update access_requirement set comment='倒影大厅  (入口)' where mapId=668 and difficulty=0;
-update access_requirement set comment='倒影大厅  (入口)' where mapId=668 and difficulty=1;
+update access_requirement set quest_failed_text='你必须完成任务“痛苦灵魂的回声”才能进入。',comment='萨伦之渊  (入口)' where mapId=658 and difficulty=0;
+update access_requirement set quest_failed_text='你必须完成任务“痛苦灵魂的回声”才能进入。',comment='萨伦之渊  (入口)' where mapId=658 and difficulty=1;
+update access_requirement set quest_failed_text='你必须完成任务“深渊的裁决”才能进入。',comment='倒影大厅  (入口)' where mapId=668 and difficulty=0;
+update access_requirement set quest_failed_text='你必须完成任务“深渊的裁决”才能进入。',comment='倒影大厅  (入口)' where mapId=668 and difficulty=1;
 update access_requirement set comment='晶红圣所  (入口)' where mapId=724 and difficulty=0;
 update access_requirement set comment='晶红圣所  (入口)' where mapId=724 and difficulty=1;
 update access_requirement set comment='晶红圣所  (入口)' where mapId=724 and difficulty=2;
